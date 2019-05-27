@@ -1,0 +1,65 @@
+{
+  "name": "react-pc",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "mkdir build && react-app-rewired build && mv build dist",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-scripts eject",
+    "analyze": "BUNDLE_VISUALIZE=1 react-app-rewired build"
+  },
+  "dependencies": {
+    "antd": "^3.16.6",
+    "autobind-decorator": "^2.4.0",
+    "axios": "^0.18.0",
+    "jsencrypt": "^3.0.0-rc.1",
+    "mobx": "^5.9.4",
+    "mobx-react": "^5.4.3",
+    "moment": "^2.24.0",
+    "query-string": "^6.5.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-config": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "3.0.0",
+    "shortid": "^2.2.14"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@babel/plugin-proposal-optional-chaining": "^7.2.0",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "autoprefixer": "^9.5.1",
+    "babel-plugin-import": "^1.11.0",
+    "babel-preset-react-app": "^9.0.0",
+    "customize-cra": "^0.2.12",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "postcss-loader": "^3.0.0",
+    "react-app-rewire-less": "^2.1.3",
+    "react-app-rewire-less-modules": "^1.3.0",
+    "react-app-rewire-postcss": "^3.0.2",
+    "react-app-rewired": "2.0.2-next.0",
+    "source-map-explorer": "^1.8.0",
+    "webpack-bundle-analyzer": "^3.3.2"
+  },
+  "eslintConfig": {
+    "extends": "react-app",
+    "rule": {}
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "ie >= 8",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
