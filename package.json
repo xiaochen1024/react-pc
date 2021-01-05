@@ -12,7 +12,7 @@
   "dependencies": {
     "antd": "^3.16.6",
     "autobind-decorator": "^2.4.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "jsencrypt": "^3.0.0-rc.1",
     "mobx": "^5.9.4",
     "mobx-react": "^5.4.3",
